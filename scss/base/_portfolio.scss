@@ -1,0 +1,39 @@
+.jb-portfolio{
+  position: relative;
+  display: inline-block;
+  max-width: $max-width;
+  padding: 1em;
+  margin: auto;
+  box-sizing: border-box;
+  &__item{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__text{
+      display: inline-block;
+      width: 100%;
+      @media screen and (min-width: $breakpoint-med){
+        width: 50%;
+      }
+      padding: 1em;
+      margin: 1em;
+      border: solid 5px black;
+      // background: rgb(0,183,181);
+      // background: linear-gradient(55deg, rgba(0,183,181,1) 0%, rgba(9,184,82,1) 100%);
+    }
+    &__image{
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      @media screen and (min-width: $breakpoint-med){
+        width: 40%;
+      }
+      margin: 1em;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

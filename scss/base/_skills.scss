@@ -1,0 +1,21 @@
+.jb-skills{
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  max-width: $max-width;
+  padding: 1em;
+  margin-top: 1em;
+  border: solid 5px black;
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+  li{
+    margin-right: 1em;
+  }
+  // li:after{
+  //   content: " / ";
+  // }
+}

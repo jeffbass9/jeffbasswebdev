@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+h1{
+  font-size: 4em;
+  margin: 1rem 0;
+}
+h2{
+  font-size: 3em;
+  margin: 1rem 0;
+}
+h3{
+  font-size: 2em;
+  margin: 1rem 0;
+}
+h4{
+  font-size: 1.5em;
+  margin: 1rem 0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: $heading-font;
+}
+p,a,span,ul,ol{
+  font-family: $paragraph-font;
+  font-size: 1.4rem;
+}
+a{
+  position: relative;
+  color: rgb(8, 184, 83);
+  font-weight: 800;
+  text-decoration: none;
+  z-index: 1;
+  cursor: pointer;
+}
+
+a::before {
+  background: white;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.25s ease-in-out;
+  z-index: -1;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
