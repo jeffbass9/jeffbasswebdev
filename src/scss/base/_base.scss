@@ -25,7 +25,8 @@ h1,h2,h3,h4,h5,h6{
 }
 p,a,span,ul,ol{
   font-family: $paragraph-font;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 a{
   position: relative;

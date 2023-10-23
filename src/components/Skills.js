@@ -7,17 +7,21 @@ function Skills(props){
         <div className="jb-skills__inner__text">
           <h2>Skills</h2>
           <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript</li>
+            <li>Wordpress (custom themes and plugins, headless development)</li>
+            <li>Next.js</li>
+            <li>GraphQL</li>
             <li>PHP</li>
             <li>React</li>
             <li>C#</li>
-            <li>Wordpress</li>
             <li>Sitecore</li>
-            <li>HTML email</li>
-            <li>Adobe Suite</li>
-            <li>Mailchimp</li>
+            <li>MySQL</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+            <li>HTML Email</li>
+            <li>Visual Studio</li>
+            <li>Git</li>
+            <li>Jira</li>
           </ul>
         </div>
       </div>

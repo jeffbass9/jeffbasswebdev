@@ -4,6 +4,9 @@
   padding: 1em;
   // max-width: $max-width;
   margin: auto;
+  background: linear-gradient(to right, $primary-color 0%,$secondary-color 50%,$primary-color 100% ); 
+  background-size: $bgWidth 100%;
+  animation: background-pulse 15s linear infinite ;
   &__heading{
     text-align: center;
     @media screen and (min-width: $breakpoint-med){
@@ -15,5 +18,19 @@
       flex-direction: column;
       justify-content: space-around;
     }
+  }
+}
+
+body {
+
+}
+
+@keyframes background-pulse{
+  0%{
+    background-position-x: 0;
+  }
+
+  100%{
+    background-position-x: $bgWidth;
   }
 }

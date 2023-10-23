@@ -10,7 +10,7 @@ function Footer(props){
   return(
     <div className="jb-footer">
       <div className="jb-footer__inner">
-        <h3>Contact me</h3>
+        <h3>Connect with me</h3>
         <ul>
           <li><a href="https://www.linkedin.com/in/jeffbasswebdev/"><img src={linkedin_icon} alt="Connect with me on LinkedIn"/></a></li>
           <li><a href="https://github.com/jeffbass9"><img src={github_icon} alt="Follow me on Github"/></a></li>
