@@ -21,7 +21,7 @@ class ProjectList extends React.Component {
           title: "Headless Wordpress blog",
           client: "Seattle Pacific University",
           description: "The university had an existing alumni stories site that needed a redesign. Our designer put together a great static mockup and I converted it into a headless Wordpress theme with Next.js and GraphQL.",
-          linkURL1: "https://stories-next.vercel.app/ ",
+          linkURL1: "https://stories-next-uc-web-team-projects.vercel.app/",
           linkText1: "View site",
           image1x: spu_stories_img1x,
           image2x: spu_stories_img2x,
