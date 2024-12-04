@@ -1,13 +1,4 @@
 .jb-footer{
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: auto;
-  color: white;
-  padding: 1em;
-  margin: auto;
-  background: black;
   ul{
     display: flex;
     padding: 0;
@@ -32,5 +23,19 @@
     max-width: $max-width;
     margin: auto;
     text-align: center;
+    a::before {
+      transform: none;
+    }
+  }
+  & {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 1em;
+    margin: auto;
+    background: black;
   }
 }

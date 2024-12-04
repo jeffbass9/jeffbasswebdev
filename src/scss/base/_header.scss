@@ -1,12 +1,4 @@
 .jb-header{
-  display: inline-block;
-  width: 100%;
-  padding: 1em;
-  // max-width: $max-width;
-  margin: auto;
-  background: linear-gradient(to right, $primary-color 0%,$secondary-color 50%,$primary-color 100% ); 
-  background-size: $bgWidth 100%;
-  animation: background-pulse 15s linear infinite ;
   &__heading{
     text-align: center;
     @media screen and (min-width: $breakpoint-med){
@@ -19,10 +11,15 @@
       justify-content: space-around;
     }
   }
-}
-
-body {
-
+  & {
+    display: inline-block;
+    width: 100%;
+    padding: 1em;
+    margin: auto;
+    background: linear-gradient(to right, $primary-color 0%,$secondary-color 50%,$primary-color 100% ); 
+    background-size: $bgWidth 100%;
+    animation: background-pulse 15s linear infinite ;
+  }
 }
 
 @keyframes background-pulse{

@@ -1,13 +1,5 @@
 .jb-button{
-  margin-right: 1em;
-  transition: background 0.2s ease;
-  display: inline-block;
-  width: 175px;
-  text-align: center;
-  padding: 0.5em 1em;
-  border: solid 5px;
-  background: black;
-  color: white;
+  
   &:hover{
     background: white;
     color: black;
@@ -17,5 +9,16 @@
   }
   &_dark-bg{
     border: solid white 5px;
+  }
+  & {
+    margin-right: 1em;
+    transition: background 0.2s ease;
+    display: inline-block;
+    width: 175px;
+    text-align: center;
+    padding: 0.5em 1em;
+    border: solid 5px;
+    background: black;
+    color: white;
   }
 }
