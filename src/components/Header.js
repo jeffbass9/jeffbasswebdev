@@ -11,7 +11,7 @@ function Header(props){
         <div className="jb-bio__text">
           <h1>Jeff Bass</h1>
           <h2>React / Wordpress / ASP.Net</h2>
-          <p>I am a self-motivated web developer, musician, and filmmaker  with a passion for learning.</p>
+          <p>I am a self-motivated web developer with a passion for learning.</p>
           <p>Keeping up with the latest
           standards and trends, I love working with Wordpress, creating new design
           components across a variety of frameworks, improving browser performance
