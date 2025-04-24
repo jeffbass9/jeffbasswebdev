@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import jeff_bass_resume from "../img/jeff-bass-resume-2024.pdf";
+import jeff_bass_resume from "../img/jeff-bass-resume-2025.pdf";
 
 
 function Header(props){
