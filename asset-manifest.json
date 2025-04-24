@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17e1fd21.css",
+    "main.js": "/static/js/main.73273430.js",
+    "static/js/453.b20f5b11.chunk.js": "/static/js/453.b20f5b11.chunk.js",
+    "static/media/motion-2x.jpg": "/static/media/motion-2x.bb27ae42f0c9b623c850.jpg",
+    "static/media/stories-2x.jpg": "/static/media/stories-2x.5557854c28f0362edc13.jpg",
+    "static/media/campus-map-screenshot-2x.jpg": "/static/media/campus-map-screenshot-2x.b2c8113708ce7e6f0c09.jpg",
+    "static/media/motion.jpg": "/static/media/motion.a533c87886e26b8336d7.jpg",
+    "static/media/stories.jpg": "/static/media/stories.74052c634ddfd9408980.jpg",
+    "static/media/good-press-photo-website-draft-1.jpg": "/static/media/good-press-photo-website-draft-1.fe6859823a6b0aa69735.jpg",
+    "static/media/campus-map-screenshot.jpg": "/static/media/campus-map-screenshot.f4b1785d676c4ba914c6.jpg",
+    "static/media/faith-and-co-screenshot-2x.jpg": "/static/media/faith-and-co-screenshot-2x.6844937546107ac83c06.jpg",
+    "static/media/spu-homepage-screenshot-2x.jpg": "/static/media/spu-homepage-screenshot-2x.be7b00e724dc33f08091.jpg",
+    "static/media/profile-image.jpeg": "/static/media/profile-image.4fb349b39201a8aee119.jpeg",
+    "static/media/faith-and-co-screenshot.jpg": "/static/media/faith-and-co-screenshot.51a2fc4242f6510461d4.jpg",
+    "static/media/spu-homepage-screenshot.jpg": "/static/media/spu-homepage-screenshot.cf96bb48dc8b5db4dc00.jpg",
+    "static/media/jeff-bass-resume-2025.pdf": "/static/media/jeff-bass-resume-2025.79e34b212e94e62d885f.pdf",
+    "static/media/icon-instagram.svg": "/static/media/icon-instagram.6406b9d57033bf3a60fc671719658d90.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/icon-github.svg": "/static/media/icon-github.24cd984fe9ab7e5fcbe8d588fcd679cd.svg",
+    "static/media/icon-email.svg": "/static/media/icon-email.523cac9c95a78874afac862b51c716de.svg",
+    "index.html": "/index.html",
+    "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.7ea8c6b1561af7f1eb9de6e1c7f8c811.svg",
+    "main.17e1fd21.css.map": "/static/css/main.17e1fd21.css.map",
+    "main.73273430.js.map": "/static/js/main.73273430.js.map",
+    "453.b20f5b11.chunk.js.map": "/static/js/453.b20f5b11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17e1fd21.css",
+    "static/js/main.73273430.js"
+  ]
+}
